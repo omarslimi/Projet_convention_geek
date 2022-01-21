@@ -1,0 +1,138 @@
+    body {
+        background-color: #1c1244;
+    }
+    
+    .videoContainer{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .videoContainer #home-page {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+        width: 100vw;
+        height: auto;
+    }
+
+    .videoContainer .headerBtn img{
+        margin-top: 10vh;
+        height: 50vh;
+        width: 50vw;
+        
+    }
+    .headerBtnTop{
+        margin-top: 10vh;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .colorp {
+        color: rgb(235, 175, 11);
+    }
+    
+    .colortext {
+        color: white;
+    }
+    
+    #headline {
+        color: white;
+    }
+    
+    #program {
+        position: relative;
+    }
+    
+    #text {
+        font-size: 20px;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        top: 50%;
+        left: 20%;
+        text-align: right;
+        color: white;
+        transform: translate(-50%, -50%);
+    }
+    .carousel-inner{
+        height: 80vh;
+    }
+    .carousel-inner img{
+        height: 80vh;
+    }
+    @media screen AND (max-width:1000px){
+        
+        .videoContainer #home-page {
+            width: auto;
+            height: 80vh;
+        }
+        .videoContainer .headerBtn img{
+            margin-top: 5vh;
+            height: 50vh;
+            width: 80vw;
+            
+        }
+        .headerBtnTop{
+            margin-top: 10vh;
+        }
+        
+    }
+    @media screen AND (max-width:500px){
+        
+        .videoContainer #home-page {
+            width: auto;
+            height: 100vh;
+        }
+        .videoContainer .headerBtn img{
+            margin-top: 0;
+            height: 40vh;
+            width: 100%;
+        }
+        .headerBtnTop{
+            margin-top: 0;
+        }
+    }
+#footerPageRegisters{
+    margin-top: 410px;
+}
+#tablePageRegisters{
+    margin-top: 50px;
+}
+.bgColor{
+    background-color: white;
+}
+#titleRegisters{
+    padding-top: 7%;
+    color: white;
+}
+.bgColorActivities{
+    background-color: #1c1244;
+}
+#box{
+    margin-top: 8%;
+}
+#logo{
+    margin-top: 5%;
+}
+.title{
+    margin-top: 7vh;
+}
+#footerVisitors{
+    margin-top: 24.6vh;
+}
+#footerChoice{
+    margin-top: 28.9vh;
+}
+#rowIm{
+    margin-top: 30vh;
+}
+.validated{
+    color: green;
+}
+.invalidated{
+    color: red;
+}
